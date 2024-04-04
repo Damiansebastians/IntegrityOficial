@@ -1,4 +1,5 @@
 import { buttonVariants } from "@/components/ui/button";
+import genio from "../assets/Genio.jpeg";
 import {
   Card,
   CardContent,
@@ -23,9 +24,9 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "https://i.pravatar.cc/150?img=35",
-    name: "Emma Smith",
-    position: "Product Manager",
+    imageUrl: "../assets/Genio.jpeg",
+    name: "GENIO THE PRODUCER",
+    position: "Productor",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
       {
@@ -102,14 +103,13 @@ export const Team = () => {
     >
       <h2 className="text-3xl md:text-4xl font-bold">
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Our Dedicated{" "}
+          NUESTROS{" "}
         </span>
-        Crew
+        Colaboradores
       </h2>
 
       <p className="mt-4 mb-10 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+      Descubre la magia de la música creada por talentos excepcionales!
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">
@@ -132,7 +132,7 @@ export const Team = () => {
               </CardHeader>
 
               <CardContent className="text-center pb-2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p></p>
               </CardContent>
 
               <CardFooter>

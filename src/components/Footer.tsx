@@ -1,4 +1,5 @@
-import { LogoIcon } from "./Icons";
+
+import LogoIntegrity from "../assets/logo_transp.png";
 
 export const Footer = () => {
   return (
@@ -11,8 +12,7 @@ export const Footer = () => {
             href="/"
             className="font-bold text-xl flex"
           >
-            <LogoIcon />
-            INTEGRITY MANAGEMENT
+          INTEGRITY MANAGEMENT
           </a>
         </div>
 
