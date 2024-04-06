@@ -1,6 +1,7 @@
 {
   "name": "Website Integrity oficial",
   "author": "Damian Silvera",
+  "homepage": "https://damiansebastians.github.io/IntegrityOficial/",
   "private": true,
   "version": "0.1.0",
   "type": "module",
