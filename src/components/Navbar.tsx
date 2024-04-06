@@ -49,7 +49,8 @@ export const Navbar = () => {
           <NavigationMenuItem className="font-bold flex">
             <a
               href="/"
-              className="ml-2 font-bold text-xl flex"
+              className="ml-2 flex"
+              style={{ fontFamily: "chubgothic_1, sans-serif", fontSize: '30px', letterSpacing: '1px' }}
             >
             INTEGRITY OFICIAL
             </a>

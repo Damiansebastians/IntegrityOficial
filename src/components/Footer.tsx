@@ -17,13 +17,13 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Follow US</h3>
+          <h3 className="font-bold text-lg">REDES SOCIALES</h3>
           <div>
             <a
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Github
+              Instagram
             </a>
           </div>
 
@@ -41,19 +41,19 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Dribbble
+              Facebook
             </a>
           </div>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Platforms</h3>
+          <h3 className="font-bold text-lg">PLATAFORMAS</h3>
           <div>
             <a
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Web
+              Youtube
             </a>
           </div>
 
@@ -62,7 +62,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Mobile
+              Spotify
             </a>
           </div>
 
@@ -71,12 +71,12 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Desktop
+              Apple Music
             </a>
           </div>
-        </div>
+        </div> 
 
-        <div className="flex flex-col gap-2">
+        {/* <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">About</h3>
           <div>
             <a
@@ -104,9 +104,9 @@ export const Footer = () => {
               FAQ
             </a>
           </div>
-        </div>
+        </div> */}
 
-        <div className="flex flex-col gap-2">
+        {/* <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Community</h3>
           <div>
             <a
@@ -134,7 +134,7 @@ export const Footer = () => {
               Twitch
             </a>
           </div>
-        </div>
+        </div> */}
       </section>
 
       <section className="container pb-14 text-center">
@@ -145,7 +145,7 @@ export const Footer = () => {
             href="https://www.linkedin.com/in/damian-sebastian-silvera-collazo-/"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Damian Silvera Collazo
+            Damian Silvera
           </a>
         </h3>
       </section>
