@@ -1,5 +1,5 @@
 
-import LogoIntegrity from "../assets/logo_transp.png";
+//import LogoIntegrity from "../assets/logo_transp.png";
 
 export const Footer = () => {
   return (

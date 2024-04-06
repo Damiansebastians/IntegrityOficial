@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/sheet";
 
 import { buttonVariants } from "./ui/button";
-import { Import, Menu } from "lucide-react";
+import { /*Import,*/ Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
 
 interface RouteProps {
@@ -114,6 +114,6 @@ export const Navbar = () => {
           </div>
         </NavigationMenuList>
       </NavigationMenu>
-    </header>
+     </header>
   );
-};
+}; 

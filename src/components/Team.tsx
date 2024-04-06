@@ -1,5 +1,5 @@
 import { buttonVariants } from "@/components/ui/button";
-import genio from "../assets/Genio.jpeg";
+//import genio from "../assets/Genio.jpeg";
 import {
   Card,
   CardContent,
