@@ -5,22 +5,22 @@ export const Statistics = () => {
   }
 
   const stats: statsProps[] = [
-    {
-      quantity: "447K+",
-      description: "Seguidores",
-    },
-    {
-      quantity: "264+",
-      description: "Oyentes Mensuales",
-    },
-    {
-      quantity: "10+",
-      description: "Artistas",
-    },
-    {
-      quantity: "4",
-      description: "Productos",
-    },
+    // {
+    //   quantity: "447K+",
+    //   description: "Seguidores",
+    // },
+    // {
+    //   quantity: "264+",
+    //   description: "Oyentes Mensuales",
+    // },
+    // {
+    //   quantity: "10+",
+    //   description: "Artistas",
+    // },
+    // {
+    //   quantity: "4",
+    //   description: "Productos",
+    // },
   ];
 
   return (

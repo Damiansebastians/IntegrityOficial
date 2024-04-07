@@ -139,7 +139,7 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Landing page made by{" "}
+          &copy; 2024 Web creada por{" "}
           <a
             target="_blank"
             href="https://www.linkedin.com/in/damian-sebastian-silvera-collazo-/"

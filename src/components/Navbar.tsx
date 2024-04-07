@@ -27,7 +27,7 @@ const routeList: RouteProps[] = [
     label: "¿Quienes Somos?",
   },
   {
-    href: "#team",
+    href: "#features",
     label: "Colaboradores",
   },
   {

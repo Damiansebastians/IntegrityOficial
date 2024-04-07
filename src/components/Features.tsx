@@ -6,9 +6,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import image from "../assets/growth.png";
-import image3 from "../assets/reflecting.png";
-import image4 from "../assets/looking-ahead.png";
+// import image from "../assets/Genio.jpeg";
+import image3 from "../assets/label.jpeg";
+import image4 from "../assets/Genio.jpeg";
 
 interface FeatureProps {
   title: string;
@@ -18,35 +18,21 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "GENIO THE PRODUCER",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "",
     image: image4,
   },
   {
-    title: "Intuitive user interface",
+    title: "SMYC LABEL",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "",
     image: image3,
-  },
-  {
-    title: "AI-Powered insights",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    image: image,
-  },
+  }
 ];
 
 const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  "Pricing",
-  "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
-  "Minimalist",
+   "Descubre la magia de la música creada por talentos excepcionales!",
 ];
 
 export const Features = () => {
@@ -56,9 +42,9 @@ export const Features = () => {
       className="container py-24 sm:py-32 space-y-8"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
+        NUESTROS{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
+          COLABORADORES
         </span>
       </h2>
 
@@ -67,7 +53,7 @@ export const Features = () => {
           <div key={feature}>
             <Badge
               variant="secondary"
-              className="text-sm"
+              className="text-xl"
             >
               {feature}
             </Badge>
@@ -75,7 +61,7 @@ export const Features = () => {
         ))}
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
         {features.map(({ title, description, image }: FeatureProps) => (
           <Card key={title}>
             <CardHeader>

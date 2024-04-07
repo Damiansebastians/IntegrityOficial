@@ -1,5 +1,4 @@
 import { buttonVariants } from "@/components/ui/button";
-//import genio from "../assets/Genio.jpeg";
 import {
   Card,
   CardContent,
@@ -24,7 +23,7 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "../assets/Genio.jpeg",
+    imageUrl: "/assets/Genio.jpeg",
     name: "GENIO THE PRODUCER",
     position: "Productor",
     socialNetworks: [
@@ -40,9 +39,9 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "John Doe",
-    position: "Tech Lead",
+    imageUrl: "/assets/label.jpeg",
+    name: "SMYC LABEL",
+    position: "Productor",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
       {
@@ -52,31 +51,6 @@ const teamList: TeamProps[] = [
       {
         name: "Instagram",
         url: "https://www.instagram.com/",
-      },
-    ],
-  },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=36",
-    name: "Ashley Ross",
-    position: "Frontend Developer",
-    socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
-
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
-    ],
-  },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=17",
-    name: "Bruce Rogers",
-    position: "Backend Developer",
-    socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
       },
     ],
   },
