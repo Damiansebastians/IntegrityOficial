@@ -20,7 +20,8 @@ export const Footer = () => {
           <h3 className="font-bold text-lg">REDES SOCIALES</h3>
           <div>
             <a
-              href="#"
+              href="https://www.instagram.com/integrityoficial/"
+              target="_blank"
               className="opacity-60 hover:opacity-100"
             >
               Instagram
@@ -29,8 +30,9 @@ export const Footer = () => {
 
           <div>
             <a
-              href="#"
+              href="https://twitter.com/integrityoficia"
               className="opacity-60 hover:opacity-100"
+              target="_blank"
             >
               Twitter
             </a>
@@ -38,8 +40,9 @@ export const Footer = () => {
 
           <div>
             <a
-              href="#"
+              href="https://www.facebook.com/"
               className="opacity-60 hover:opacity-100"
+              target="_blank"
             >
               Facebook
             </a>
@@ -50,7 +53,8 @@ export const Footer = () => {
           <h3 className="font-bold text-lg">PLATAFORMAS</h3>
           <div>
             <a
-              href="#"
+              href="https://www.youtube.com/@integrityoficial"
+              target="_blank"
               className="opacity-60 hover:opacity-100"
             >
               Youtube
@@ -59,8 +63,9 @@ export const Footer = () => {
 
           <div>
             <a
-              href="#"
+              href="https://open.spotify.com/intl-es/artist/2uNcnzZVBcvvc1PDLlBjnw?si=4uMaIBINTt2uNRwWA3Vlsg"
               className="opacity-60 hover:opacity-100"
+              target="_blank"
             >
               Spotify
             </a>
@@ -68,8 +73,9 @@ export const Footer = () => {
 
           <div>
             <a
-              href="#"
+              href="https://www.apple.com/es/apple-music/"
               className="opacity-60 hover:opacity-100"
+              target="_blank"
             >
               Apple Music
             </a>

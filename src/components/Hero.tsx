@@ -27,18 +27,23 @@ export const Hero = () => {
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <a href="https://open.spotify.com"></a>
-          <Button 
-          className="w-full md:w-1/3" 
-          style={{ 
-            backgroundColor: 'green',
-             color: 'white'
-            }}
-               
-             >SPOTIFY</Button>
+        <a 
+  href="https://open.spotify.com/intl-es/artist/2uNcnzZVBcvvc1PDLlBjnw?si=4uMaIBINTt2uNRwWA3Vlsg" 
+  target="_blank" // Agrega este atributo para abrir en otra pestaña
+>
+  <Button 
+    style={{ 
+      backgroundColor: 'green',
+      color: 'white'
+    }}
+    className="w-full md:w-1/3"    
+  >
+    SPOTIFY
+  </Button>
+</a>
 
           <a style={{ backgroundColor: 'red', color: 'white' }}
-            href="https://youtube.com"
+            href="https://www.youtube.com/@integrityoficial"
             target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({
               variant: "outline",
@@ -50,7 +55,7 @@ export const Hero = () => {
       </div>
 
       {/* Hero cards sections */}
-      <div className="z-10">
+      <div className="z-15">
         <HeroCards />
       </div>
 

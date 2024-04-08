@@ -13,6 +13,7 @@
 // import { LightBulbIcon } from "./Icons";
 // import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import logoIntegrity from "../assets//logo_transp.png";
+import video from "../assets//PRUEBA.mp4";
 
 export const HeroCards = () => {
   return (
@@ -37,9 +38,8 @@ export const HeroCards = () => {
         <CardContent>Expectacular! Será una bomba!</CardContent>
 
       Team */}
-          <img
-          src={logoIntegrity}/>
-      
+          {/* <img
+          src={logoIntegrity}/> */}
 
       {/* Pricing 
       <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
@@ -101,6 +101,19 @@ export const HeroCards = () => {
           </div>
         </CardHeader>
       </Card> */}
+      <div 
+  className="video-container"
+  style={{ width: '50%', position: 'relative' }} // Establece un ancho y posición relativa
+>
+  <video 
+    src={video} 
+    autoPlay 
+    controls 
+    style={{ width: '100%' }} // Establece el ancho del video al 100% del contenedor
+  >
+  </video>
+  <div className="overlay" /> {/* Capa de superposición para aplicar efectos de hover */}
+</div>
     </div>
   );
 };
