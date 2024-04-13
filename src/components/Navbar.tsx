@@ -47,18 +47,17 @@ export const Navbar = () => {
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
-            <a
-              href="/"
-              className="ml-2 flex"
-              style={{ fontFamily: "chubgothic_1, sans-serif", fontSize: '30px', letterSpacing: '1px' }}
-            >
-            INTEGRITY OFICIAL
-            </a>
+          <a
+  href="/"
+  className="ml-2 flex"
+  style={{ fontFamily: "chubgothic_1, sans-serif", fontSize: '1.4rem', letterSpacing: '1px' }}
+>
+  INTEGRITY OFICIAL
+</a>
           </NavigationMenuItem>
 
           {/* mobile */}
           <span className="flex md:hidden">
-            <ModeToggle />
 
             <Sheet
               open={isOpen}
@@ -111,7 +110,7 @@ export const Navbar = () => {
           </nav>
 
           <div className="hidden md:flex gap-2">
-            <ModeToggle />
+            
           </div>
         </NavigationMenuList>
       </NavigationMenu>
