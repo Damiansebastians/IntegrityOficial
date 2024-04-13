@@ -103,7 +103,7 @@ export const HeroCards = () => {
       </Card> */}
       
  <div className="video-container w-full lg:w-1/2 relative">
- <video src={video} autoPlay controls className="w-full"></video>
+ <video src={video} autoPlay controls controlsList="nodownload" className="w-full"></video>
   <div className="overlay" />
 </div>
     </div>
