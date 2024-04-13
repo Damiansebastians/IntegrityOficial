@@ -17,7 +17,7 @@ import video from "../assets//PRUEBA.mp4";
 
 export const HeroCards = () => {
   return (
-    <div className="hidden lg:flex flex-row flex-wrap gap-8 relative w-[700px] h-[500px]">
+    <div className="lg:flex flex-row flex-wrap gap-8">
       {/* Testimonial 
       <Card className="absolute w-[340px] -top-[15px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="flex flex-row items-center gap-4 pb-2">
@@ -101,18 +101,10 @@ export const HeroCards = () => {
           </div>
         </CardHeader>
       </Card> */}
-      <div 
-  className="video-container"
-  style={{ width: '50%', position: 'relative' }} // Establece un ancho y posición relativa
->
-  <video 
-    src={video} 
-    autoPlay 
-    controls 
-    style={{ width: '100%' }} // Establece el ancho del video al 100% del contenedor
-  >
-  </video>
-  <div className="overlay" /> {/* Capa de superposición para aplicar efectos de hover */}
+      
+ <div className="video-container w-full lg:w-1/2 relative">
+ <video src={video} autoPlay controls className="w-full"></video>
+  <div className="overlay" />
 </div>
     </div>
   );

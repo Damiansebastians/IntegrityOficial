@@ -55,7 +55,7 @@ export const Hero = () => {
       </div>
 
       {/* Hero cards sections */}
-      <div className="z-15">
+      <div className="">
         <HeroCards />
       </div>
 
