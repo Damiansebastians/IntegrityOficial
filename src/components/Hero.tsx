@@ -36,7 +36,7 @@ export const Hero = () => {
       backgroundColor: 'green',
       color: 'white'
     }}
-    className="w-full md:w-1/3"    
+    className="w-full md:w-1/2"    
   >
     SPOTIFY
   </Button>
