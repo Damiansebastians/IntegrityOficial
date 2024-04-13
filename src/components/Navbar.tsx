@@ -48,7 +48,7 @@ export const Navbar = () => {
         <NavigationMenuList className="container h-14 px-4 flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
           <a
-  href="/"
+  href="#"
   className="ml-2 flex"
   style={{ fontFamily: "chubgothic_1, sans-serif", fontSize: '1.4rem', letterSpacing: '1px' }}
 >

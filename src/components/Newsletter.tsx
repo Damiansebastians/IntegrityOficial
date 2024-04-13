@@ -22,7 +22,7 @@ export const Newsletter = () => {
         Para solicitar información contacta con:
         </p>
         <p className="text-center text-xl">
-           info@integrityoficial.com.
+        <a href="mailto:info@integrityoficial.com">info@integrityoficial.com</a>
           </p>
           <p className= "text-xl text-muted-foreground text-center mt-4 mb-8">
             O en el siguiente formulario:

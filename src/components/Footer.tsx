@@ -44,7 +44,7 @@ export const Footer = () => {
               className="opacity-60 hover:opacity-100"
               target="_blank"
             >
-              Facebook
+              Tiktok
             </a>
           </div>
         </div>
