@@ -40,7 +40,7 @@ export const Footer = () => {
 
           <div>
             <a
-              href="https://www.facebook.com/"
+              href="https://www.tiktok.com/@integrityoficial"
               className="opacity-60 hover:opacity-100"
               target="_blank"
             >

@@ -9,27 +9,27 @@ export const Hero = () => {
         <main className="text-4xl md:text-6xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              INTEGRITY
+              Nuevo proyecto de INTEGRITY <br></br>
             </span>{" "}
-            lanza su nuevo proyecto musical
+            El Moroloco, Bujan, DaSilva <br></br>
           </h1>{" "}
-          con {" "}
+          
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              EL MOROLOCO
+            Sigo pensándote 
             </span>{" "}
-            PROXIMAMENTE
+            LANZAMIENTO 26/04
           </h2>
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          !Artista tendencia en España!
+          !Próximamente en todas las plataformas!
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
         <a 
   href="https://open.spotify.com/intl-es/artist/2uNcnzZVBcvvc1PDLlBjnw?si=4uMaIBINTt2uNRwWA3Vlsg" 
-  target="_blank" // Agrega este atributo para abrir en otra pestaña
+  target="_blank"
 >
   <Button 
     style={{ 
