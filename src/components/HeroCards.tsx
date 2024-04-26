@@ -13,7 +13,7 @@
 // import { LightBulbIcon } from "./Icons";
 // import { GitHubLogoIcon } from "@radix-ui/react-icons";
 //import logoIntegrity from "../assets//logo_transp.png";
-import video from "../assets//PRUEBA.mp4";
+//import video from "../assets//PRUEBA.mp4";
 
 export const HeroCards = () => {
   return (
@@ -102,10 +102,10 @@ export const HeroCards = () => {
         </CardHeader>
       </Card> */}
       
- <div className="video-container w-full lg:w-1/2 relative">
- <video src={video} autoPlay controls controlsList="nodownload" className="w-full"></video>
-  <div className="overlay" />
+      <div className="video-container w-full lg:w-1/2 relative">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8HOkfVn96ng?si=1VYAgpDQtQZMkQsM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </div>
+
     </div>
   );
 };

@@ -147,8 +147,6 @@ export const Footer = () => {
         <h3>
           &copy; 2024 Web creada por{" "}
           <a
-            target="_blank"
-            href="https://www.linkedin.com/in/damian-sebastian-silvera-collazo-/"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
             Damian Silvera
