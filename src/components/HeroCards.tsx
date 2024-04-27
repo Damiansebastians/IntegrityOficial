@@ -103,19 +103,9 @@ export const HeroCards = () => {
       </Card> */}
       
       
-      <div className="video-container" style={{ maxWidth: '560px', margin: '0 auto' }}>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/8HOkfVn96ng?si=1VYAgpDQtQZMkQsM"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        style={{ width: '100%', height: '100%' }}
-      ></iframe>
-    </div>
-
+      <div className="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8HOkfVn96ng?si=1VYAgpDQtQZMkQsM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      </div>
     </div>
   );
 };

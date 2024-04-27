@@ -4,6 +4,18 @@ html {
   padding: 0;
 }
 
+.py-20 {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.video-container {
+  overflow: hidden;
+  padding-bottom: 56.25%; /* Proporción del video (9:16) */
+  position: relative;
+  height: 0;
+}
+
 /* HeroCards background shadow */
 .shadow {
   position: absolute;
@@ -44,6 +56,10 @@ html {
       right: 160px;
     }
   }
+  .py-20 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
 }
 
 @media (max-width: 768px) {
@@ -64,4 +80,19 @@ html {
       right: 100px;
     }
   }
+
+  .video-container {
+    padding-bottom: 100%; /* Ajuste al ancho del dispositivo */
+    width: 350px;
+  }
+
+  .video-container iframe {
+    width: 100%;
+    
+  }
+
+  .py-24 {
+    padding-top: 0rem;
+  }
+ 
 }
