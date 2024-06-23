@@ -28,7 +28,7 @@ const routeList: RouteProps[] = [
   },
   {
     href: "#features",
-    label: "Colaboradores",
+    label: "Novedades",
   },
   {
     href: "#newsletter",

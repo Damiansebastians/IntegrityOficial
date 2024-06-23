@@ -77,13 +77,12 @@ export const Team = () => {
     >
       <h2 className="text-3xl md:text-4xl font-bold">
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          NUESTROS{" "}
+          NOVEDADES{" "}
         </span>
-        Colaboradores
       </h2>
 
       <p className="mt-4 mb-10 text-xl text-muted-foreground">
-      Descubre la magia de la música creada por talentos excepcionales!
+      DFFFFFFles!
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">
